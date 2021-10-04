@@ -3,6 +3,7 @@ import './Course.css';
 import { Card } from 'react-bootstrap';
 import { faClock, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Rating } from '@mui/material';
 
 
 const Course = (props) => {
@@ -12,7 +13,7 @@ const Course = (props) => {
   <Card.Img variant="top" src={courseThumb} />
   <div className="card-content">
   <Card.Body>
-  <h6 className="text-start">rating</h6>
+  <h6 className="text-start mt-4"><Rating name="read-only" value={courseRating} readOnly /></h6>
     <Card.Title className="text-start text-capitalize">{courseName}</Card.Title>
     <h6 className="text-start course-duration"><FontAwesomeIcon icon={faClock} /> {courseTime}</h6>
     <p className="text-start author"><span><small>by</small></span> Amader Academy</p>
