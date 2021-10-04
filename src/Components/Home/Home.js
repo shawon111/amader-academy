@@ -2,8 +2,12 @@ import React from 'react';
 import './Home.css';
 import heroImg from '../../images/hero-image.png';
 import { NavLink } from 'react-router-dom';
+import useCourses from '../../hooks/useCourses';
+import Course from '../Course/Course';
 
 const Home = () => {
+    const [courses] = useCourses();
+    const topCourses = courses.filter(course => course.courseRating===5);
     return (
         <div>
             <section className="hero-section">
@@ -20,7 +24,15 @@ const Home = () => {
             </section>
             <section className="courses-section">
                 <div className="container course-container">
-                    <h2 className="text-uppercase fw-bold">Popular Courses</h2>
+                    <h2 className="text-uppercase fw-bold home-courses-heading">Popular Courses</h2>
+                    <div className="popular-courses-container">
+                        {
+                            topCourses.map(course => <Course
+                            key={course.courseId}
+                            course={course}
+                            ></Course>)
+                        }
+                    </div>
                 </div>
             </section>
         </div>

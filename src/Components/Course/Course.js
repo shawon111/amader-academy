@@ -1,13 +1,14 @@
 import React from 'react';
+import './Course.css';
 import { Card } from 'react-bootstrap';
 import { faClock, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import './Course.css';
+
 
 const Course = (props) => {
     const {courseName, courseId, courseTime, courseRating, coursePrice, courseThumb} = props.course;
     return (
-        <Card>
+        <Card className="course-card">
   <Card.Img variant="top" src={courseThumb} />
   <div className="card-content">
   <Card.Body>

@@ -39,3 +39,11 @@
 .courses-section{
     background-color: #F1F2F6;
 }
+.home-courses-heading{
+    padding-bottom: 80px;
+}
+.popular-courses-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
