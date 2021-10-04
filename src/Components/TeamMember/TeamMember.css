@@ -1,0 +1,13 @@
+.card-img{
+    height: 230px;
+    width: 75%;
+    margin: auto;
+    border-radius: 50%;
+}
+.card{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.team-position{
+    color: #6EC1E4
+}

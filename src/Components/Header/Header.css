@@ -1,0 +1,29 @@
+header{
+    padding: 15px 0px;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+}
+.logo-container{
+    width: 70%;
+    text-align: start;
+}
+.site-logo{
+    width: 30%;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+}
+.menu a{
+    color: #130F40;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: #6EC1E4;
+}
