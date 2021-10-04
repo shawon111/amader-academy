@@ -1,0 +1,36 @@
+.card{
+    padding-top: 0px;
+    background-color: #DFF9FB;
+    border: none;
+    box-shadow: 0px 0px 10px #e4e0e0;
+}
+.card img{
+    height: 230px;
+}
+.card-title, .course-duration, .author{
+    color: #556174e8;
+}
+.card-title{
+    margin: 30px 0px;
+}
+.course-duration{
+    margin: 20px 0px;
+}
+.card-bottom{
+    margin-top: 30px;
+}
+.add-cart-btn{
+    text-decoration: none;
+    color: #556174e8;
+    font-weight: 500;
+}
+.add-cart-btn:hover{
+    color: #130F40;
+}
+.price{
+    color: #130f4098;
+    font-weight: 500;
+}
+.card-body{
+    padding: 0 1rem;
+}
