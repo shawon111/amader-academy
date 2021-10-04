@@ -1,6 +1,7 @@
 footer{
     padding: 60px 0px;
-    background-color: #6ec1e448;
+    background-color: #fff;
+    border-top: 1px solid #6ec1e444;
 }
 .social-icon{
     font-size: 35px;
