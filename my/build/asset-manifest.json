@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d1b66b27.chunk.css",
+    "main.js": "/static/js/main.2066f9c6.chunk.js",
+    "main.js.map": "/static/js/main.2066f9c6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.203e84ea.js",
+    "runtime-main.js.map": "/static/js/runtime-main.203e84ea.js.map",
+    "static/js/2.98b85fa5.chunk.js": "/static/js/2.98b85fa5.chunk.js",
+    "static/js/2.98b85fa5.chunk.js.map": "/static/js/2.98b85fa5.chunk.js.map",
+    "static/js/3.77ea1ce1.chunk.js": "/static/js/3.77ea1ce1.chunk.js",
+    "static/js/3.77ea1ce1.chunk.js.map": "/static/js/3.77ea1ce1.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.d1b66b27.chunk.css.map": "/static/css/main.d1b66b27.chunk.css.map",
+    "static/js/2.98b85fa5.chunk.js.LICENSE.txt": "/static/js/2.98b85fa5.chunk.js.LICENSE.txt",
+    "static/media/about-hero.efaeaaf3.jpg": "/static/media/about-hero.efaeaaf3.jpg",
+    "static/media/course-logo.e63d693d.png": "/static/media/course-logo.e63d693d.png",
+    "static/media/hero-image.98b6af5f.png": "/static/media/hero-image.98b6af5f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.203e84ea.js",
+    "static/js/2.98b85fa5.chunk.js",
+    "static/css/main.d1b66b27.chunk.css",
+    "static/js/main.2066f9c6.chunk.js"
+  ]
+}
